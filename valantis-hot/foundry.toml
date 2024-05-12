@@ -1,0 +1,24 @@
+[profile.default]
+src = 'src'
+out = 'out'
+libs = ['lib']
+optimizer = true
+optimizer_runs = 20_000
+solc = "0.8.19"
+fs_permissions = [
+    { access = "read-write", path = "./deployments/11155111.json" },
+    { access = "read-write", path = "./deployments/100.json" },
+    { access = "read-write", path = "./deployments/1.json" },
+
+]
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+
+[fuzz]
+max_test_rejects = 2_147_483_648
+runs = 128
+
+[rpc_endpoints]
+sepolia = "${SEPOLIA_RPC_URL}"
+gnosis = "${GNOSIS_RPC_URL}"
+
