@@ -3,7 +3,7 @@
 	url = https://github.com/foundry-rs/forge-std
 [submodule "arrakis-modular/lib/openzeppelin-contracts"]
 	path = arrakis-modular/lib/openzeppelin-contracts
-	url = https://github.com/openzeppelin/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
 [submodule "arrakis-modular/lib/solady"]
 	path = arrakis-modular/lib/solady
 	url = https://github.com/vectorized/solady
@@ -28,3 +28,6 @@
 [submodule "valantis-hot/lib/forge-std"]
 	path = valantis-hot/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "arrakis-modular/lib/valantis-hot"]
+	path = arrakis-modular/lib/valantis-hot
+	url = https://github.com/ValantisLabs/valantis-hot
